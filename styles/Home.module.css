@@ -1,0 +1,63 @@
+.div {
+  width: max-content;
+  margin: auto;
+  justify-content: center;
+ }
+
+
+.form {
+  border: 2px solid black;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  width:max-content;
+  align-self: center;
+ }
+
+.label {
+  display: flex;
+  margin:8px 0;
+  height:40px;
+  /* align-items: center; */
+ }
+
+
+.label > div {
+  width: 200px;
+  font-size: 20px;
+  height:40px;
+  align-items: center;
+ }
+
+ .label > input {
+  font-size: 20px;
+  height:40px;
+ }
+
+ .submit {
+  font-size: 20px;
+  height:40px;
+  margin: 20px 0;
+  width: fit-content;
+  align-self: flex-end
+ }
+
+ .dropdown {
+  font-size: 20px;
+  height:40px;
+  margin-left: 4px;
+  width: 50%;
+ }
+
+
+ @media(max-width: 600px) {
+  .label {
+    flex-direction: column;
+    height:100px;
+  }
+  .dropdown {
+    margin-left:unset
+  }
+  
+}
+ 
