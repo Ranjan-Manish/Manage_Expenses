@@ -24,6 +24,7 @@ const Home = () => {
             <option value={"Furniture"}> Furniture </option>
             <option value={"Appliances"}> appliances </option>
             <option value={"Investment"}> Investment </option>
+            <option value={"Miscellaneous"}> Miscellaneous </option>
           </select>
         </label>
         <label className={styles.label}>
